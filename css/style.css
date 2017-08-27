@@ -1,0 +1,304 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/ Myriad pro regular.otf');
+}
+@font-face {
+    font-family: 'Mvideo';
+    src: url('../fonts/MVideo Light.ttf');
+    
+}
+
+
+.top_menu_left {
+    margin-top: 5%;
+    margin-left: 15%;
+    background: white;
+}
+.navigation {
+    list-style: none;
+    margin-left: 80px;
+	display: flex;
+    
+}
+.navigation > li:first-child {
+    padding-left: 50px;
+}
+.navigation > li {
+	margin-left: 80px;
+}
+
+.navigation > li > a {
+    padding: 5px;
+	color: black;
+    font: bold 18px Mvideo;
+}
+.navigation > li > a:hover {
+    background: black;
+    border-radius: 14px;
+    color: white;
+    text-decoration: none;
+    
+}
+.navigation > li > ul {
+    list-style: none;
+}
+.navigation > li > ul > li > a {
+    display: none;
+    
+}
+.navigation > li > ul > li > a:hover {
+    display: block;
+}
+.navigation li span {
+    font-size: 16px;
+    color:black;
+    padding-top: 5.5px;
+}
+.social-icons {
+    margin-top: 15%;
+    display: flex;
+    
+}
+.social-icons > ul {
+	list-style: none;
+    display: flex;
+    
+}
+.social-icons > ul > li {
+	margin-left: 20px;
+    
+    
+}
+.social-icons >ul > li >a {
+    color: black;
+    font-size: 20px;
+}
+.social-icons > ul > li >a:hover{
+	text-decoration: none;
+    font-size:23px;
+    transition: ease-in-out .4s;
+}
+
+.brand {
+    float: left;
+    margin-left: 30px;
+    font:bold 18px Mvideo;
+    color: black;
+}
+.brand:hover {
+    text-decoration: none;
+    color: black;
+}
+.circle {
+	width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: black;
+    float: left;
+    margin-top: -8px;
+    padding-right: 20px;
+}
+.second-string {
+    
+    
+	margin-top: 25px;
+    margin-bottom: 5px;
+}
+.cathegory-prod {
+    border-right: 3px solid silver;
+    
+}
+.cathegory-list {
+    
+	display: flex;
+    list-style: none;
+}
+.cathegory-list li {
+	width: 100px;
+    margin-left: 45px;
+}
+.cathegory-list li img {
+    
+}
+.cathegory-list li a {
+	color: black;
+    font: bold 16px MVideo;
+    text-decoration: none;
+}
+.cathegory-list li a:hover {
+	background: aqua;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+}
+.cat_title {
+	position:relative;
+    display: block;
+    top: 10px;
+    width: 100px;
+}
+
+
+.right-title {
+    margin-top: 35px;
+    clear: both;
+}
+#simple-navigation {
+    
+    background: white;
+    height: 50px;
+    padding-top: 10px;
+    box-shadow: 5px 0 5px #666;
+    
+}
+.drop_menu {
+    
+    font-size: 22px;
+    width: 35px;
+    padding:5px 7px 5px;
+    
+    background: white;
+    box-shadow: none;
+    border: none;
+    
+}
+
+.drop_menu:hover {
+	background: black;
+    color:whitesmoke;
+}
+.drop_menu > ul:hover {
+	margin: 0;
+}
+#drop_list {
+    list-style:none;
+    display: none;
+    width: 100px;
+    
+}
+#drop_list li {
+	
+}
+#drop_list li a {
+    text-decoration: none;
+    color: #666;
+    background: #dedede;
+    border-bottom: 1px solid white;
+    
+}
+#drop_list li a:hover {
+    margin-left: 1.5px;
+    margin-top:-1px;
+    background: black;
+    color: white;
+}
+#menu-center {
+	display: flex;
+    
+    margin-left: 15%;
+    list-style: none;
+    padding-top:10px
+
+}
+#menu-center li:first-child {
+    margin-left: 0;
+}
+#menu-center li {
+	margin-left: 40px;
+}
+#menu-center li a {
+	text-decoration: none;
+    color:black;
+    font: bold 19px MVideo;
+    padding-bottom: 7px;
+}
+#menu-center li a:hover {
+    border-bottom: 3px solid black;
+    transition: ease-in-out .3s;
+}
+.mini-cart {
+  margin-top: 10px;
+ margin-bottom: 10xp;
+ margin-left: 40px;
+}
+.mini-cart a {
+    padding:10px;
+    font: bold 18px MVideo;
+    color: rgba(102, 102, 102, 0.6);
+}
+
+.icon-cart {
+	padding-left: 6px;
+
+    font-size: 18px
+}
+.icon-cart {
+	text-decoration: none;
+    
+}
+#catalog {
+    justify-content: center;
+    padding-left: 20%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.prod-name {
+    
+    margin-left: 50px;
+    margin-top: 5%;
+    padding-bottom: 30px;
+    
+    font: bold 22px MVideo;
+    color: black;
+}
+.prod-desc {
+    background: white;
+    border-radius: 5px;
+    margin-left: 50px;
+    width: 200px;
+    
+}
+.prod-prew {
+    padding-left: 20px;
+   
+}
+.prod-prew img {
+    width: 200px;
+    margin: 20px 40px 20px;
+    
+}
+.buy {
+    margin-left: 43px;
+    border-radius: 20px;
+    width: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid aqua;
+    background: white;
+    color: aqua;
+    font: bold 16px MVideo;
+}
+.buy:hover {
+    background: aqua;
+    color: white;
+}
+.prod-instruction {
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 20px;
+    border: 1px solid #666;
+    background: none;
+    padding: 5px;
+}
+.prod-instruction:hover {
+    background: #666;
+    color: white;
+    border-color: black;
+}
+.prod-price {
+    margin-left: 10%;
+    margin-top: 10px;
+    font: bold 18px MVideo;
+    color: black;
+    
+}
